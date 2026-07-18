@@ -73,8 +73,8 @@ My contributions include:
 ## Computational Design of Linkage Mechanisms
 
 ### METHEUS
-Autonomous Linkage Mechanism Design Software
 
+**Autonomous Linkage Mechanism Design Software**
 **IDeAOcean**
 
 I played a key role in the development of algorithms for generating, analyzing, and optimizing linkage-based robotic mechanisms in both two-dimensional and three-dimensional design spaces.
