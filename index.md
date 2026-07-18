@@ -110,8 +110,17 @@ I participated in an undergraduate research project exploring a motor-cable wris
 
 The project investigated a concept for automatically tightening and releasing the wrist interface using a motor-driven cable mechanism, with the aim of reducing the need for manual attachment and adjustment by the user.
 
-<img src="/portfolio/images/Biorobotics.jpg"
-     alt="Motor-cable wrist anchoring system for wearable glove">
+<div class="two-image-row">
+  <div>
+    <img src="/portfolio/images/Biorobotics1.jpg"
+         alt="Motor-cable wrist anchoring system for wearable glove">
+  </div>
+
+  <div>
+    <img src="/portfolio/images/Biorobotics2.jpg"
+         alt="Motor-cable wrist anchoring system for wearable glove">
+  </div>
+</div>
 
 <hr class="subsection-divider">
 
