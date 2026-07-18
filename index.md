@@ -44,13 +44,13 @@ This research addresses the structural complexity of conventional 3-DoF linkage-
 
 The main components of the research include:
 
-- Enumerating admissible mechanism topologies that satisfy the required three degrees of freedom and structural constraints.
-- Identifying a structurally minimal mechanism topology composed of the minimum number of links and joints.
-- Performing multi-objective dimensional optimization using NSGA-II to maximize both the three-dimensional fingertip workspace and the workspace on the finger's desired symmetry plane.
-- Converting the optimized linkage topology into a manufacturable robotic finger through the integrated design of actuators, joint structures, links, and mechanical interfaces.
-- Implementing the control and electronic systems using ROS 2 and Dynamixel actuators.
-- Experimentally evaluating the fabricated finger's motion repeatability and force capacity.
-- Integrating four fingers into a complete robotic hand and demonstrating glove-based teleoperation.
+- Enumerating admissible mechanism topologies that satisfy the required three degrees of freedom and structural constraints
+- Identifying a structurally minimal mechanism topology composed of the minimum number of links and joints
+- Performing multi-objective dimensional optimization using NSGA-II to maximize both the three-dimensional fingertip workspace and the workspace on the finger's desired symmetry plane
+- Converting the optimized linkage topology into a manufacturable robotic finger through the integrated design of actuators, joint structures, links, and mechanical interfaces
+- Implementing the control and electronic systems using ROS 2 and Dynamixel actuators
+- Experimentally evaluating the fabricated finger's motion repeatability and force capacity
+- Integrating four fingers into a complete robotic hand and demonstrating glove-based teleoperation
 
 <video autoplay muted loop playsinline preload="auto" controls>
   <source src="/portfolio/images/MinimalFinger.mp4" type="video/mp4">
