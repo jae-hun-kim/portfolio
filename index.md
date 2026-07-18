@@ -113,12 +113,12 @@ The project investigated a concept for automatically tightening and releasing th
 <div class="two-image-row">
   <div>
     <img src="/portfolio/images/Biorobotics1.jpg"
-         alt="Motor-cable wrist anchoring system for wearable glove">
+         alt="Motor-cable wrist anchoring system for wearable glove 1">
   </div>
 
   <div>
     <img src="/portfolio/images/Biorobotics2.jpg"
-         alt="Motor-cable wrist anchoring system for wearable glove">
+         alt="Motor-cable wrist anchoring system for wearable glove 2">
   </div>
 </div>
 
