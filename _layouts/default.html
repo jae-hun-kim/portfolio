@@ -205,6 +205,26 @@
       footer p {
          font-weight: 300;
       }
+
+      /* Two images */
+      section .two-image-row {
+         display: grid !important;
+         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+         align-items: start;
+         gap: 14px;
+         width: 100%;
+         margin-top: 16px;
+         margin-bottom: 20px;
+      }
+      
+      section .two-image-row img {
+         display: block;
+         width: 100%;
+         max-width: none;
+         height: auto;
+         margin: 0;
+         border-radius: 8px;
+      }
    </style>
 
    <!--[if lt IE 9]>
