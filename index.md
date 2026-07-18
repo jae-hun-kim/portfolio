@@ -2,12 +2,12 @@
 layout: default
 ---
 
-# Portfolio
+## Portfolio
 
 <img src="/portfolio/images/Hand.jpg"
      alt="Hand">
 
-## About Me
+### About Me
 
 I am an M.S. student specializing in robotics in the Department of Intelligence and Information at Seoul National University. I received my B.S. in Mechanical Engineering from Seoul National University.
 
@@ -19,7 +19,7 @@ Building on my experience in robotic hands and linkage mechanism optimization, m
 
 <hr class="subsection-divider">
 
-## Research Interests
+### Research Interests
 
 - Computational design and synthesis of robotic mechanisms
 - Robotic fingers and hands
