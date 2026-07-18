@@ -96,8 +96,6 @@ The developed framework algorithmically generated mechanisms composed of various
   Your browser does not support embedded videos.
 </video>
 
-[Learn More about METHEUS](https://www.ideaocean.ai/product/metheus/)
-
 <hr class="section-divider">
 
 ## Wearable Robotics
