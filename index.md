@@ -79,7 +79,7 @@ My contributions include:
 
 <hr class="section-divider">
 
-## Computational Design of Linkage Mechanisms
+## Computational Mechanism Design
 
 ### Autonomous Linkage Mechanism Design Software
 
