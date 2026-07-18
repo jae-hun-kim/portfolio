@@ -206,7 +206,6 @@
          font-weight: 300;
       }
 
-      /* Two images */
       section .two-image-row {
          display: grid !important;
          grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
@@ -272,6 +271,21 @@
             margin-bottom: 20px;
             padding: 22px 20px;
             border-radius: 8px;
+         }
+      }
+
+      @media screen and (min-width: 961px) {
+         .wrapper > section {
+            float: right;
+            width: 550px;
+            box-sizing: border-box;
+         }
+      }
+      
+      @media screen and (max-width: 960px) {
+         .wrapper > section {
+            float: none;
+            width: auto;
          }
       }
    </style>
