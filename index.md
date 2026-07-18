@@ -72,7 +72,8 @@ My contributions include:
 
 ## Computational Design of Linkage Mechanisms
 
-### METHEUS: Autonomous Linkage Mechanism Design Software
+### METHEUS
+Autonomous Linkage Mechanism Design Software
 
 **IDeAOcean**
 
