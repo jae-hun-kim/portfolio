@@ -17,6 +17,16 @@ I later played a key role in the development of **METHEUS** at IDeAOcean, a star
 
 Building on my experience in robotic hands and linkage mechanism optimization, my master's research at the SNU Dynamic Robotic Systems Laboratory focuses on the **computational design of linkage-driven robotic fingers and hands**. I have led a first-author research project on a **structurally minimal 3-DoF closed-chain robotic finger** and have also contributed to **tendon-driven robotic hands** and **wearable glove systems**.
 
+<hr class="subsection-divider">
+
+## Research Interests
+
+- Computational design and synthesis of robotic mechanisms
+- Robotic fingers and hands
+- Linkage mechanism analysis and optimization
+- Wearable robotics and haptic interfaces
+- Hardware realization of computationally generated mechanisms
+
 <hr class="section-divider">
 
 ## Robotic Hands
@@ -75,9 +85,8 @@ My contributions include:
 
 ## Computational Design of Linkage Mechanisms
 
-### METHEUS
+### Autonomous Linkage Mechanism Design Software
 
-**Autonomous Linkage Mechanism Design Software**  
 **IDeAOcean**
 
 I played a key role in the development of algorithms for generating, analyzing, and optimizing linkage-based robotic mechanisms in both two-dimensional and three-dimensional design spaces.
@@ -124,11 +133,3 @@ Elastic bands and electrostatic clutches were arranged in a zigzag architecture 
      alt="Variable-stiffness haptic glove using electrostatic clutches">
 
 <hr class="section-divider">
-
-## Research Interests
-
-- Computational design and synthesis of robotic mechanisms
-- Robotic fingers and hands
-- Linkage mechanism analysis and optimization
-- Wearable robotics and haptic interfaces
-- Hardware realization of computationally generated mechanisms
