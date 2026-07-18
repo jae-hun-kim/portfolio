@@ -4,7 +4,7 @@ layout: default
 
 # Portfolio
 
-<img src="/portfolio/images/Hand.png"
+<img src="/portfolio/images/Hand.jpg"
      alt="Hand">
 
 ## About Me
