@@ -225,6 +225,55 @@
          margin: 0;
          border-radius: 8px;
       }
+
+      body {
+         background-color: #F2F2F2;
+      }
+      
+      section {
+         background: transparent;
+      }
+      
+      section .section-card {
+         box-sizing: border-box;
+         width: 100%;
+         margin: 0 0 28px;
+         padding: 30px 32px;
+      
+         background-color: #FFFFFF;
+         border: 1px solid #E5E5E5;
+         border-radius: 10px;
+      
+         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+      }
+      
+      section .section-card > :first-child {
+         margin-top: 0;
+      }
+      
+      section .section-card > :last-child {
+         margin-bottom: 0;
+      }
+
+      section hr.section-divider {
+         display: none;
+      }
+      
+      section hr.subsection-divider {
+         height: 0;
+         margin: 36px 0;
+         padding: 0;
+         border: 0;
+         border-top: 1px solid #D4D4D4;
+      }
+      
+      @media screen and (max-width: 600px) {
+         section .section-card {
+            margin-bottom: 20px;
+            padding: 22px 20px;
+            border-radius: 8px;
+         }
+      }
    </style>
 
    <!--[if lt IE 9]>
@@ -284,5 +333,47 @@
    </div>
 
    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+   <script>
+      document.addEventListener('DOMContentLoaded', function () {
+         const contentSection = document.querySelector('.wrapper > section');
+   
+         if (!contentSection) {
+            return;
+         }
+   
+         const originalNodes = Array.from(contentSection.childNodes);
+         const fragment = document.createDocumentFragment();
+         let currentCard = document.createElement('div');
+   
+         currentCard.className = 'section-card';
+   
+         originalNodes.forEach(function (node) {
+            const isSectionDivider =
+               node.nodeType === Node.ELEMENT_NODE &&
+               node.matches('hr.section-divider');
+   
+            if (isSectionDivider) {
+               if (currentCard.textContent.trim() !== '' ||
+                   currentCard.querySelector('img, video, hr, ul, ol')) {
+                  fragment.appendChild(currentCard);
+               }
+   
+               currentCard = document.createElement('div');
+               currentCard.className = 'section-card';
+               return;
+            }
+   
+            currentCard.appendChild(node);
+         });
+   
+         if (currentCard.textContent.trim() !== '' ||
+             currentCard.querySelector('img, video, hr, ul, ol')) {
+            fragment.appendChild(currentCard);
+         }
+   
+         contentSection.replaceChildren(fragment);
+      });
+   </script>
 </body>
 </html>
