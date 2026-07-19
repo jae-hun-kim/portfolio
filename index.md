@@ -2,9 +2,6 @@
 layout: default
 ---
 
-<img src="/portfolio/images/Hand.jpg"
-     alt="Hand">
-
 ## About Me
 
 I am an M.S. student specializing in robotics in the Department of Intelligence and Information at Seoul National University. I received my B.S. in Mechanical Engineering from Seoul National University.
