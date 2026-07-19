@@ -161,7 +161,7 @@
       }
 
       /* Profile image */
-      header img {
+      header .profile-image {
          display: block;
          width: 180px;
          height: 180px;
@@ -291,6 +291,84 @@
             width: auto;
          }
       }
+
+      body {
+         overflow-x: hidden;
+      }
+      
+      .wrapper {
+         position: relative;
+         z-index: 1;
+      }
+      
+      header .mobile-hand-image {
+         display: none;
+      }
+      
+      .desktop-hand-image {
+         display: block;
+         position: fixed;
+         bottom: 0;
+      
+         width: 33.333vw;
+         max-width: none;
+         height: auto;
+      
+         margin: 0;
+         padding: 0;
+      
+         border: 0;
+         border-radius: 0;
+         box-shadow: none;
+      
+         object-fit: contain;
+         pointer-events: none;
+         user-select: none;
+      
+         z-index: 0;
+      }
+      
+      .desktop-hand-left {
+         left: 0;
+      }
+      
+      .desktop-hand-right {
+         right: 0;
+      }
+
+      @media screen and (min-width: 961px) {
+         header .mobile-hand-image {
+            display: none;
+         }
+      
+         .desktop-hand-image {
+            display: block;
+         }
+      }
+      
+      @media screen and (max-width: 960px) {
+         .desktop-hand-image {
+            display: none;
+         }
+      
+         header .mobile-hand-image {
+            display: block;
+            box-sizing: border-box;
+      
+            width: 100%;
+            max-width: none;
+            height: auto;
+      
+            margin: 24px 0 0;
+            padding: 0;
+      
+            object-fit: contain;
+      
+            border: 0;
+            border-radius: 0;
+            box-shadow: none;
+         }
+      }
    </style>
 
    <!--[if lt IE 9]>
@@ -309,6 +387,7 @@
 
          {% if site.logo %}
          <img
+            class="profile-image"
             src="{{ site.logo | relative_url }}"
             alt="{{ site.title | default: 'Profile photo' }}">
          {% endif %}
@@ -316,6 +395,12 @@
          <p>
             {{ site.description | default: site.github.project_tagline }}
          </p>
+
+         <img
+            class="mobile-hand-image"
+            src="{{ '/images/Hand.png' | relative_url }}"
+            alt=""
+            aria-hidden="true">
 
          {% if site.show_downloads %}
          <ul class="downloads">
@@ -348,6 +433,18 @@
          </p>
       </footer>
    </div>
+
+   <img
+      class="desktop-hand-image desktop-hand-left"
+      src="{{ '/images/Hand1.png' | relative_url }}"
+      alt=""
+      aria-hidden="true">
+   
+   <img
+      class="desktop-hand-image desktop-hand-right"
+      src="{{ '/images/Hand2.png' | relative_url }}"
+      alt=""
+      aria-hidden="true">
 
    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
