@@ -302,11 +302,11 @@
       }
       
       header .mobile-hand-image {
-         display: none !important;
+         display: none;
       }
       
       .desktop-hand-image {
-         display: none;
+         display: block;
          position: fixed;
          bottom: 0;
       
@@ -324,6 +324,7 @@
          object-fit: contain;
          pointer-events: none;
          user-select: none;
+      
          z-index: 0;
       }
       
@@ -336,33 +337,33 @@
       }
 
       @media screen and (min-width: 961px) {
-         .desktop-hand-image {
-            display: block;
+         header .mobile-hand-image {
+            display: none;
          }
       
-         header .mobile-hand-image {
-            display: none !important;
+         .desktop-hand-image {
+            display: block;
          }
       }
       
       @media screen and (max-width: 960px) {
          .desktop-hand-image {
-            display: none !important;
+            display: none;
          }
       
          header .mobile-hand-image {
-            display: block !important;
-            position: static;
-      
+            display: block;
             box-sizing: border-box;
-            width: 100% !important;
-            max-width: 100% !important;
-            height: auto !important;
       
-            margin: 24px 0 30px !important;
+            width: 100%;
+            max-width: none;
+            height: auto;
+      
+            margin: 24px 0 0;
             padding: 0;
       
             object-fit: contain;
+      
             border: 0;
             border-radius: 0;
             box-shadow: none;
