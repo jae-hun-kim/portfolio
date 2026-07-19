@@ -161,7 +161,7 @@
       }
 
       /* Profile image */
-      header .profile-image {
+      header img {
          display: block;
          width: 180px;
          height: 180px;
@@ -301,10 +301,6 @@
          z-index: 1;
       }
       
-      header .mobile-hand-image {
-         display: none;
-      }
-      
       .desktop-hand-image {
          display: block;
          position: fixed;
@@ -324,7 +320,6 @@
          object-fit: contain;
          pointer-events: none;
          user-select: none;
-      
          z-index: 0;
       }
       
@@ -334,16 +329,6 @@
       
       .desktop-hand-right {
          right: 0;
-      }
-      
-      @media screen {
-         header .mobile-hand-image {
-            display: none;
-         }
-
-         .desktop-hand-image {
-            display: block;
-         }
       }
    </style>
 
@@ -363,7 +348,6 @@
 
          {% if site.logo %}
          <img
-            class="profile-image"
             src="{{ site.logo | relative_url }}"
             alt="{{ site.title | default: 'Profile photo' }}">
          {% endif %}
@@ -371,12 +355,6 @@
          <p>
             {{ site.description | default: site.github.project_tagline }}
          </p>
-
-         <img
-            class="mobile-hand-image"
-            src="{{ '/images/Hand.jpg' | relative_url }}"
-            alt=""
-            aria-hidden="true">
 
          {% if site.show_downloads %}
          <ul class="downloads">
