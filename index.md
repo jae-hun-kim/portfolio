@@ -4,13 +4,13 @@ layout: default
 
 ## About Me
 
-I am an M.S. student specializing in robotics in the Department of Intelligence and Information at Seoul National University. I received my B.S. in Mechanical Engineering from Seoul National University.
+I am an M.S. student specializing in robotics in the Department of Intelligence and Information at *Seoul National University*. I received my B.S. in Mechanical Engineering from *Seoul National University*.
 
-My early research focused on **wearable robotics** and **glove design**. At the SNU Biorobotics Laboratory, I participated in research on a **wrist-anchoring mechanism** for wearable glove. At the SNU Healthcare Robotics Laboratory, I developed a **variable-stiffness haptic glove** designed to render different levels of compliance in virtual reality.
+My early research focused on **wearable robotics** and **glove design**. At the *SNU Biorobotics Laboratory*, I participated in research on a **wrist-anchoring mechanism** for wearable glove. At the *SNU Healthcare Robotics Laboratory*, I developed a **variable-stiffness haptic glove** designed to render different levels of compliance in virtual reality.
 
-I later played a key role in the development of **METHEUS** at IDeAOcean, a startup spun out of the IDeA Laboratory at Seoul National University. METHEUS is an **autonomous linkage mechanism design software platform** recognized with a CES 2024 Innovation Award. My work focused on the algorithmic generation, analysis, and optimization of mechanical systems.
+I later played a key role in the development of **METHEUS** at *IDeAOcean*, a startup spun out of the *IDeA Laboratory* at *Seoul National University*. METHEUS is an **autonomous linkage mechanism design software platform** recognized with a CES 2024 Innovation Award. My work focused on the algorithmic generation, analysis, and optimization of mechanical systems.
 
-Building on my experience in robotic hands and linkage mechanism optimization, my master's research at the SNU Dynamic Robotic Systems Laboratory focuses on the **computational design of linkage-driven robotic fingers and hands**. I have led a first-author research project on a **structurally minimal 3-DoF closed-chain robotic finger** and have also contributed to **tendon-driven robotic hands** and **wearable glove systems**.
+Building on my experience in robotic hands and linkage mechanism optimization, my master's research at the *SNU Dynamic Robotic Systems Laboratory* focuses on the **computational design of linkage-driven robotic fingers and hands**. I have led a first-author research project on a **structurally minimal 3-DoF closed-chain robotic finger** and have also contributed to **tendon-driven robotic hands** and **wearable glove systems**.
 
 ### Research Interests
 
