@@ -65,6 +65,7 @@ The main components of the research include:
 **SNU Dynamic Robotic Systems Laboratory**  
 **Advisor: Prof. Jaeheung Park**  
 **Second-Author Research**
+*Under Review at Intelligent Service Robotics (ISR)*
 
 I contributed to the development of a tendon-driven robotic finger and hand incorporating rolling-contact joints.
 
@@ -75,6 +76,11 @@ My contributions include:
 - ROS 2 and Dynamixel-based control implementation
 - Experimental validation of motion repeatability and force capacity
 - Integration of multiple fingers into a teleoperated robotic hand
+
+<video autoplay muted loop playsinline preload="auto" controls>
+  <source src="/portfolio/images/TendonFinger.mp4" type="video/mp4">
+  Your browser does not support embedded videos.
+</video>
 
 <hr class="section-divider">
 
