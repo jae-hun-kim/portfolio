@@ -31,10 +31,12 @@ Building on my experience in robotic hands and linkage mechanism optimization, m
 **First-Author Research**  
 *Under Review at IEEE Robotics and Automation Letters (RA-L)*
 
+This research addresses the structural complexity of conventional 3-DoF linkage-driven robotic fingers through a topology-to-dimension computational design framework.
+
 <img src="/portfolio/images/MinimalFinger1.png"
      alt="Computationally designed 3-DoF closed-chain robotic finger">
 
-This research addresses the structural complexity of conventional 3-DoF linkage-driven robotic fingers through a topology-to-dimension computational design framework.
+Instead of designing a finger as several decoupled anatomical modules, this work treats the entire robotic finger as one spatial closed-chain mechanism. The goal is to substantially reduce link-joint count while preserving useful 3-DoF fingertip motion and whole-hand grasp capability.
 
 <img src="/portfolio/images/MinimalFinger2.png"
      alt="Computationally designed 3-DoF closed-chain robotic hand">
@@ -62,7 +64,7 @@ The main components of the research include:
 
 **SNU Dynamic Robotic Systems Laboratory**  
 **Advisor: Prof. Jaeheung Park**  
-**Graduate Research**
+**Second-Author Research**
 
 I contributed to the development of a tendon-driven robotic finger and hand incorporating rolling-contact joints.
 
