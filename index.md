@@ -89,6 +89,7 @@ My contributions include:
 ### Autonomous Linkage Mechanism Design Software
 
 **IDeAOcean**
+*Startup spun out of SNU IDeA Laboratory*
 
 I played a key role in the development of algorithms for generating, analyzing, and optimizing linkage-based robotic mechanisms in both two-dimensional and three-dimensional design spaces.
 
