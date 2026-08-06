@@ -67,15 +67,43 @@ The main components of the research include:
 **Second-Author Research**  
 *Under Review at Intelligent Service Robotics (ISR)*
 
-I contributed to the development of a tendon-driven robotic finger and hand incorporating rolling-contact joints.
+This project investigates a tendon-driven robotic finger and hand based on rolling-contact joints. The finger combines tendons, flexible sheaths, and elastic ligaments to transmit actuator motion while maintaining compact and compliant joint structures.
+
+<div class="two-image-row">
+  <div>
+    <img src="/portfolio/images/Finger1DoF.jpg"
+         alt="Design of the 1-DoF finger">
+  </div>
+
+  <div>
+    <img src="/portfolio/images/Finger3DoF.jpg"
+         alt="Design of the 3-DoF finger">
+  </div>
+</div>
+
+I contributed to the mechanical implementation, modeling, control, and experimental validation of the system. In particular, I assembled the tendon-driven finger modules, established the kinematic relationship between tendon displacement and finger configuration, and implemented the motor control system using ROS 2 and Dynamixel actuators.
+
+<div class="two-image-row">
+  <div>
+    <img src="/portfolio/images/Workspace1DoF.jpg"
+         alt="Workspace of the 1-DoF finger">
+  </div>
+
+  <div>
+    <img src="/portfolio/images/Workspace3DoF.jpg"
+         alt="Workspace of the 3-DoF finger">
+  </div>
+</div>
 
 My contributions include:
 
-- Assembly of 3D-printed finger modules using tendons, sheaths, and elastic ligaments
-- Kinematic modeling between tendon displacement and finger configuration
-- ROS 2 and Dynamixel-based control implementation
-- Experimental validation of motion repeatability and force capacity
-- Integration of multiple fingers into a teleoperated robotic hand
+- Mechanical assembly and iterative refinement of 3D-printed finger modules incorporating tendons, flexible sheaths, rolling-contact joints, and elastic ligaments
+- Kinematic modeling of the relationship between actuator-side tendon displacement and the resulting finger configuration
+- Implementation of ROS 2 and Dynamixel-based motor control
+- Integration of the mechanical, actuation, and control components into a functional robotic finger system
+- Experimental evaluation of motion repeatability and force capacity
+- Integration of multiple fingers into a complete robotic hand
+- Implementation and demonstration of glove-based teleoperation
 
 <video autoplay muted loop playsinline preload="auto" controls>
   <source src="/portfolio/images/TendonFinger.mp4" type="video/mp4">
