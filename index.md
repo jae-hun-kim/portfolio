@@ -71,12 +71,12 @@ This project investigates a tendon-driven robotic finger and hand based on rolli
 
 <div class="two-image-row">
   <div>
-    <img src="/portfolio/images/Finger1DoF.jpg"
+    <img src="/portfolio/images/Finger1DoF.png"
          alt="Design of the 1-DoF finger">
   </div>
 
   <div>
-    <img src="/portfolio/images/Finger3DoF.jpg"
+    <img src="/portfolio/images/Finger3DoF.png"
          alt="Design of the 3-DoF finger">
   </div>
 </div>
@@ -85,12 +85,12 @@ I contributed to the mechanical implementation, modeling, control, and experimen
 
 <div class="two-image-row">
   <div>
-    <img src="/portfolio/images/Workspace1DoF.jpg"
+    <img src="/portfolio/images/Workspace1DoF.png"
          alt="Workspace of the 1-DoF finger">
   </div>
 
   <div>
-    <img src="/portfolio/images/Workspace3DoF.jpg"
+    <img src="/portfolio/images/Workspace3DoF.png"
          alt="Workspace of the 3-DoF finger">
   </div>
 </div>
