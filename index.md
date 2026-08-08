@@ -110,6 +110,8 @@ My contributions include:
   Your browser does not support embedded videos.
 </video>
 
+[Visit the Project Page](https://eunho26.github.io/grc/)
+
 <hr class="section-divider">
 
 ## Computational Mechanism Design
